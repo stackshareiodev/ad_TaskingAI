@@ -1,12 +1,12 @@
 repo_name: stackshareiodev/ad_TaskingAI
-report_id: '096bae48b22185b82d93d64291153dc5'
+report_id: ea82c7b91d7e44fc61e1a5d886293487
 version: 0.1
 repo_type: Public
-timestamp: '2024-02-07T15:39:27+00:00'
+timestamp: '2024-02-09T12:36:36+00:00'
 requested_by: superiorlu
 provider: github
 branch: master
-detected_tools_count: 31
+detected_tools_count: 16
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -64,20 +64,6 @@ tools:
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
   detection_source_url: https://github.com/stackshareiodev/ad_TaskingAI
   detection_source: Repo Metadata
-- name: Ant Design
-  description: A set of high-quality React components
-  website_url: https://ant.design
-  version: 5.12.8
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: JavaScript Framework Components
-  image_url: https://img.stackshare.io/service/6112/12101536.png
-  detection_source_url: https://github.com/stackshareiodev/ad_TaskingAI/blob/master/frontend/package-lock.json
-  detection_source: frontend/package.json
-  last_updated_by: taskingaijc
-  last_updated_on: 2024-01-17 13:34:13.000000000 Z
 - name: Node.js
   description: A platform built on Chrome's JavaScript runtime for easily building
     fast, scalable network applications
@@ -102,36 +88,9 @@ tools:
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
   detection_source_url: https://github.com/stackshareiodev/ad_TaskingAI/blob/master/frontend/package-lock.json
-  detection_source: frontend/package.json
-  last_updated_by: taskingaijc
-  last_updated_on: 2024-01-17 13:34:13.000000000 Z
-- name: React Router
-  description: A complete routing solution for React.js
-  website_url: https://github.com/rackt/react-router
-  version: 6.21.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: JavaScript Framework Components
-  image_url: https://img.stackshare.io/service/3350/8261421.png
-  detection_source_url: https://github.com/stackshareiodev/ad_TaskingAI/blob/master/frontend/package-lock.json
-  detection_source: frontend/package.json
-  last_updated_by: taskingaijc
-  last_updated_on: 2024-01-17 13:34:13.000000000 Z
-- name: Sass
-  description: Syntactically Awesome Style Sheets
-  website_url: http://sass-lang.com/
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Languages & Frameworks
-  sub_category: CSS Pre-processors / Extensions
-  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
-  detection_source_url: https://github.com/stackshareiodev/ad_TaskingAI/blob/master/frontend/package.json
-  detection_source: frontend/package.json
-  last_updated_by: taskingaijc
-  last_updated_on: 2024-01-17 13:34:13.000000000 Z
+  detection_source: frontend/src/components/iconComponent/index.jsx
+  last_updated_by: taskingaiwww
+  last_updated_on: 2024-01-30 12:08:42.000000000 Z
 - name: Redis
   description: Open source (BSD licensed), in-memory data structure store
   website_url: http://redis.io/
@@ -156,19 +115,6 @@ tools:
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
   detection_source_url: https://github.com/stackshareiodev/ad_TaskingAI
   detection_source: Repo Metadata
-- name: ESLint
-  description: The fully pluggable JavaScript code quality tool
-  website_url: http://eslint.org/
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Code Review
-  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
-  detection_source_url: https://github.com/stackshareiodev/ad_TaskingAI/blob/master/frontend/package.json
-  detection_source: frontend/package.json
-  last_updated_by: taskingaijc
-  last_updated_on: 2024-01-17 13:34:13.000000000 Z
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -202,18 +148,6 @@ tools:
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
   detection_source_url: https://github.com/stackshareiodev/ad_TaskingAI/blob/master/frontend/yarn.lock
   detection_source: frontend/yarn.lock
-  last_updated_by: taskingaijc
-  last_updated_on: 2024-01-17 13:34:13.000000000 Z
-- name: npm
-  description: The package manager for JavaScript.
-  website_url: https://www.npmjs.com/
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Front End Package Manager
-  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
-  detection_source_url: https://github.com/stackshareiodev/ad_TaskingAI/blob/master/frontend/package.json
-  detection_source: frontend/package.json
   last_updated_by: taskingaijc
   last_updated_on: 2024-01-17 13:34:13.000000000 Z
 - name: pytest
@@ -266,143 +200,3 @@ tools:
   detection_source: backend/requirements.txt
   last_updated_by: JamesirYao
   last_updated_on: 2024-01-11 08:46:42.000000000 Z
-- name: axios
-  description: Promise based HTTP client for the browser and node.js
-  website_url: https://github.com/mzabriskie/axios
-  version: 1.6.5
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Javascript Utilities & Libraries
-  image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: https://github.com/stackshareiodev/ad_TaskingAI/blob/master/frontend/package-lock.json
-  detection_source: frontend/package.json
-  last_updated_by: taskingaijc
-  last_updated_on: 2024-01-17 13:34:13.000000000 Z
-- name: "@types/react"
-  description: TypeScript definitions for React
-  package_url: https://www.npmjs.com/@types/react
-  version: 18.2.46
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: https://github.com/stackshareiodev/ad_TaskingAI/blob/master/frontend/package-lock.json
-  detection_source: frontend/package.json
-  last_updated_by: taskingaijc
-  last_updated_on: 2024-01-17 13:34:13.000000000 Z
-- name: "@types/react-dom"
-  description: TypeScript definitions for React
-  package_url: https://www.npmjs.com/@types/react-dom
-  version: 18.2.18
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: https://github.com/stackshareiodev/ad_TaskingAI/blob/master/frontend/package-lock.json
-  detection_source: frontend/package.json
-  last_updated_by: taskingaijc
-  last_updated_on: 2024-01-17 13:34:13.000000000 Z
-- name: "@typescript-eslint/eslint-plugin"
-  description: TypeScript plugin for ESLint
-  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
-  version: 6.17.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: https://github.com/stackshareiodev/ad_TaskingAI/blob/master/frontend/package-lock.json
-  detection_source: frontend/package.json
-  last_updated_by: taskingaijc
-  last_updated_on: 2024-01-17 13:34:13.000000000 Z
-- name: "@typescript-eslint/parser"
-  description: An ESLint custom parser which leverages TypeScript ESTree
-  package_url: https://www.npmjs.com/@typescript-eslint/parser
-  version: 6.17.0
-  license: BSD-2-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: https://github.com/stackshareiodev/ad_TaskingAI/blob/master/frontend/package-lock.json
-  detection_source: frontend/package.json
-  last_updated_by: taskingaijc
-  last_updated_on: 2024-01-17 13:34:13.000000000 Z
-- name: clipboard
-  description: Modern copy to clipboard. No Flash. Just 2kb
-  package_url: https://www.npmjs.com/clipboard
-  version: 2.0.11
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/16838/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
-  detection_source_url: https://github.com/stackshareiodev/ad_TaskingAI/blob/master/frontend/package-lock.json
-  detection_source: frontend/package.json
-  last_updated_by: taskingaijc
-  last_updated_on: 2024-01-17 13:34:13.000000000 Z
-- name: eslint-plugin-react-hooks
-  description: ESLint rules for React Hooks
-  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
-  version: 4.6.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: https://github.com/stackshareiodev/ad_TaskingAI/blob/master/frontend/package-lock.json
-  detection_source: frontend/package.json
-  last_updated_by: taskingaijc
-  last_updated_on: 2024-01-17 13:34:13.000000000 Z
-- name: react-dom
-  description: React package for working with the DOM
-  package_url: https://www.npmjs.com/react-dom
-  version: 18.2.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: https://github.com/stackshareiodev/ad_TaskingAI/blob/master/frontend/package-lock.json
-  detection_source: frontend/package.json
-  last_updated_by: taskingaijc
-  last_updated_on: 2024-01-17 13:34:13.000000000 Z
-- name: react-router-dom
-  description: DOM bindings for React Router
-  package_url: https://www.npmjs.com/react-router-dom
-  version: 6.21.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
-  detection_source_url: https://github.com/stackshareiodev/ad_TaskingAI/blob/master/frontend/package-lock.json
-  detection_source: frontend/package.json
-  last_updated_by: taskingaijc
-  last_updated_on: 2024-01-17 13:34:13.000000000 Z
-- name: react-toastify
-  description: React notification made easy
-  package_url: https://www.npmjs.com/react-toastify
-  version: 9.1.3
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/18461/default_5ff724c0ff89bb42698aa80ef3403008cb0d8f72.png
-  detection_source_url: https://github.com/stackshareiodev/ad_TaskingAI/blob/master/frontend/package-lock.json
-  detection_source: frontend/package.json
-  last_updated_by: taskingaijc
-  last_updated_on: 2024-01-17 13:34:13.000000000 Z
